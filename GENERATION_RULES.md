@@ -15,6 +15,8 @@ Do not narrow the newspaper to only the largest AI labs. Search broadly across:
 - enterprise AI and vertical AI
 - voice, multimodal, computer-use and robotics
 - AI research and scientific discovery
+- biology, DNA/genomics, protein/enzyme discovery and AI-designed therapeutics
+- biological safety, misuse and biosecurity incidents involving AI
 - generative media
 - databases, memory and vector systems
 - chips, accelerators and AI economics
@@ -33,12 +35,13 @@ Before publishing every edition:
 5. Search for domain-specific AI launches, including finance, healthcare, legal, retail, customer service, education, science and other enterprise verticals.
 6. Search for major open-weight/open-source releases and important checkpoints, model cards, licenses and inference support.
 7. Search for multimodal, voice, computer-use and robotics developments.
-8. Verify important claims against primary sources where possible.
-9. Build the edition with direct source links and, when useful, an image inside the individual story card.
-10. Update the live edition with the current date/time.
-11. Preserve the previous dated edition in `archive/YYYY-MM-DD.html`; do not overwrite historical editions.
-12. Keep the standalone **“🖼️ Images From Today's AI Coverage”** section removed.
-13. Deploy the updated live edition to Railway and verify the deployment before reporting it as live.
+8. Search specifically for AI + biology/life-sciences developments: DNA/genomics analysis, protein/enzyme discovery, biological foundation models, AI-designed therapeutics, wet-lab agents and meaningful biosecurity incidents or misuse disclosures.
+9. Verify important claims against primary sources where possible. For scientific discovery, distinguish vendor/company claims from peer-reviewed or independently validated findings.
+10. Build the edition with direct source links and, when useful, an image inside the individual story card.
+11. Update the live edition with the current date/time.
+12. Preserve the previous dated edition in `archive/YYYY-MM-DD.html`; do not overwrite historical editions.
+13. Keep the standalone **“🖼️ Images From Today's AI Coverage”** section removed.
+14. Deploy the updated live edition to Railway and verify the deployment before reporting it as live.
 
 ## 3. MODEL & OPEN-SOURCE WATCH — Mandatory
 
@@ -104,6 +107,9 @@ Also track specialized or industry-focused AI systems and launches, including:
 - voice / speech
 - robotics / physical AI
 - computer-use systems
+- biology / DNA / genomics / protein science
+- AI-designed therapeutics and wet-lab automation
+- biological safety, misuse and biosecurity
 
 Important example pattern:
 - GPT-6 Astra is a general frontier model, but its finance relevance must also be reported when OpenAI launches financial-services capabilities around Astra.
@@ -124,7 +130,27 @@ Finance coverage should watch for:
 - financial MCP servers/connectors
 - regulated-enterprise controls and auditability
 
-Never turn a finance model into investment advice. Report capabilities, data sources, release details, limitations and documented use cases factually.
+Never turn a finance model into investment advice.
+
+### Biology / DNA / life-sciences watch
+
+Every edition should also scan for meaningful AI developments in biological R&D and biosecurity, including:
+- DNA and genomic sequence analysis
+- protein and enzyme discovery
+- biological foundation models
+- AI-designed drugs and therapeutics
+- wet-lab agents and automated experimentation
+- gene-editing research and AI-assisted hypothesis generation
+- synthetic-biology tooling
+- biological safety evaluations and misuse disclosures
+- incidents where AI systems are reported to have materially enabled or attempted high-risk biological activity
+
+Keep three categories separate:
+1. **Research discovery:** a model helped identify a hypothesis, sequence, protein or biological mechanism.
+2. **Product/R&D platform:** a company launched a biological model, agent, dataset or therapeutic-design workflow.
+3. **Biosecurity incident:** a credible source reports misuse, attempted misuse, safeguard failure or other high-risk biological activity involving AI.
+
+Do not provide operational instructions for harmful biological activity. Report incidents at a high level, identify the source, date and status, and distinguish vendor-reported activity from independently validated findings. Report capabilities, data sources, release details, limitations and documented use cases factually.
 
 ### Open-source/open-weight watch
 
@@ -186,6 +212,8 @@ Track:
 - browser/computer-use security
 - security evaluations and red-team findings
 - major AI vulnerabilities
+- biological misuse and biosecurity incidents involving AI systems
+- wet-lab/agent safety failures and unsafe autonomy findings
 
 For incidents:
 - distinguish confirmed facts from claims or preliminary findings
@@ -307,6 +335,7 @@ Before considering an edition complete, verify:
 - [ ] Developer Corner refreshed
 - [ ] Model & Open-Source Watch refreshed
 - [ ] Security/incident scan completed
+- [ ] Biology/DNA/life-sciences and biosecurity scan completed
 - [ ] Important claims verified against primary sources
 - [ ] Direct links included
 - [ ] Individual article images used only when useful
