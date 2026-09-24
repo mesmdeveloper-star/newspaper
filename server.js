@@ -1,0 +1,3 @@
+const http=require('http'),fs=require('fs'),path=require('path');
+const port=process.env.PORT||3000;
+http.createServer((req,res)=>{let p=req.url==='/'?'/index.html':req.url;let f=path.join(__dirname,p.split('?')[0]);if(!fs.existsSync(f)){res.statusCode=404;return res.end('Not found')}res.setHeader('Content-Type',p.endsWith('.html')?'text/html':'text/plain');fs.createReadStream(f).pipe(res)}).listen(port,'0.0.0.0',()=>console.log('AI Daily listening on '+port));
