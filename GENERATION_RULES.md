@@ -24,6 +24,80 @@ Do not narrow the newspaper to only the largest AI labs. Search broadly across:
 
 Use current web research for each edition. Prefer primary sources for important claims and use independent reporting when it adds material context.
 
+### Dynamic ecosystem discovery (mandatory)
+
+The newspaper is an **AI intelligence desk**, not a fixed list of provider categories. Do not generate an edition by filling predefined boxes or by checking only OpenAI, Anthropic and Google.
+
+At the start of every edition, perform a broad discovery pass across the AI ecosystem and let the day's evidence determine which beats appear. The rolling taxonomy is a coverage checklist, not a publishing constraint.
+
+The discovery pass must actively look for material developments in:
+- foundation models and model updates
+- agents, autonomous workflows and computer use
+- coding agents and developer platforms
+- image, video, 3D, audio, music and generative media
+- voice and realtime multimodal systems
+- biology, DNA, genomics, proteins, enzymes, drug discovery and wet-lab AI
+- healthcare and medical AI
+- finance, banking, insurance and financial research
+- science and research automation
+- cybersecurity, safety, incidents and evaluations
+- robotics, humanoids, autonomous vehicles and physical AI
+- chips, accelerators, data centers, networking and inference economics
+- cloud, deployment, sandboxes and agent infrastructure
+- databases, vector search, memory, retrieval and observability
+- MCP, connectors, APIs and integration ecosystems
+- open-source/open-weight/local AI
+- enterprise software and vertical AI deployments
+- retail, commerce, logistics, manufacturing, education and government use
+- consumer AI products, wearables and AI hardware
+- funding, acquisitions, partnerships and major commercial deployments
+- policy, regulation, standards and governance when materially relevant
+- benchmarks, evaluations, scientific papers and major research results
+
+If a significant story introduces a beat not represented in the taxonomy, create an **EMERGING / NEW BEAT** label rather than excluding it.
+
+### Discovery method
+
+Use multiple discovery queries and source types, including broad searches such as:
+- "AI latest" / "artificial intelligence latest" + current date
+- "new AI model" / "AI model update" + current date
+- "AI agent" / "agentic AI" / "computer use" + current date
+- "AI developer" / "SDK" / "MCP" / "coding agent" + current date
+- "AI biology" / "AI drug discovery" / "DNA" / "protein" + current date
+- "AI robotics" / "physical AI" / "humanoid" + current date
+- "AI infrastructure" / "GPU" / "inference" / "data center" + current date
+- "AI security" / "AI incident" / "agent security" + current date
+- "AI finance" / "financial AI" / "AI healthcare" / "vertical AI" + current date
+
+Use aggregators and trackers for discovery, but verify important stories against primary sources or reputable independent reporting before publication.
+
+### Coverage-gap check
+
+Before publishing, compare the discovered stories against the full ecosystem taxonomy. Ask:
+1. Did we search outside the frontier-model vendors?
+2. Did we find any important developer, science, biology, security, infrastructure, robotics, media, enterprise or consumer story that deserves inclusion?
+3. Did a major story get excluded only because it did not fit a predefined section?
+4. Are multiple cards merely repeating the same provider or announcement?
+5. Does AI Radar expose the important beats with direct links?
+
+If a major development exists, include it even when it does not fit the usual edition structure. The edition structure is flexible; coverage breadth is mandatory.
+
+## 2A. AI Radar — Detailed Linked Intelligence Map
+
+**AI Radar is a navigation layer, not a short summary sidebar.** Every edition must refresh it from the day's discovery results.
+
+AI Radar should contain approximately 10–16 live signals when news volume supports it. Each signal must have:
+- a clear beat name
+- a one-sentence current signal describing what is changing
+- a direct link to the most relevant primary source or high-quality reporting
+- a link that opens the underlying story, release, report, model page, research paper or company announcement
+
+Radar beats should be selected dynamically from the day's actual news. Typical beats include Models, Agents, Coding, Open Source, Developer Tools, Video/Image/3D, Voice/Audio, Biology/Life Sciences, Healthcare, Finance, Cybersecurity, Robotics/Physical AI, Infrastructure/Chips, Enterprise/Vertical AI, Consumer AI/Hardware and Research.
+
+Do not make AI Radar a list of generic evergreen descriptions. A radar item must tell the reader **what changed now** and where to read more. If a beat has no meaningful current development, omit it or mark it as continuing watch rather than inventing activity.
+
+Links in AI Radar must be direct and clickable. Prefer first-party URLs for releases and research; use independent reporting for incidents or context when it is the stronger source.
+
 ## 2. Daily Search Flow
 
 Before publishing every edition:
@@ -268,7 +342,7 @@ The live newspaper should generally contain:
 4. Lead story
 5. AI Incident & Security Desk
 6. Broad AI news across multiple categories
-7. AI Radar
+7. **AI Radar — detailed live signals with direct links**
 8. More AI News From Today's Search
 9. More AI Developments Worth Tracking
 10. **Developer Corner**
