@@ -418,3 +418,8 @@ Before considering an edition complete, verify:
 - [ ] GitHub updated
 - [ ] Railway deployment checked
 - [ ] Public URL verified
+
+
+## 2B. AI Radar implementation rule
+
+AI Radar must mirror the broad ecosystem scan. It is not acceptable for Radar to contain only model-lab summaries. For every major beat represented in the edition, Radar should provide a current signal and at least one direct clickable source link. When a beat has multiple important stories, provide multiple links. Google Vids/video, voice/audio, biology, therapeutics, healthcare, finance, robotics, infrastructure/chips, cybersecurity, enterprise, open-source, coding/developer tools, agents, models, research and consumer AI should all be represented when there is meaningful current activity. Do not use a generic category link when a direct story/release link is available.
